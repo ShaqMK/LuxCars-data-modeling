@@ -11,16 +11,16 @@
 - [Project Structure](#project-structure)
 
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
-    [1. Initial Data Profiling](#1-initial-data-profiling)
-    [2. Date Cleaning and Standardization](#2-date-cleaning-and-standardization)
-    [3. Text Cleaning and Standardization](#3-text-cleaning-and-standardization)
-    [4. Customer Type Standardization](#4-customer-type-standardization)
-    [5. Vehicle Brand and Category Cleaning](#5-vehicle-brand-and-category-cleaning)
-    [6. Numeric Cleaning](#6-numeric-cleaning)
-    [7. Currency and Monetary Field Cleaning](#7-currency-and-monetary-field-cleaning)
-    [8. Discount Cleaning](#9-missing-and-invalid-values)
-    [9. Missing and Invalid Values](#9-missing-and-invalid-values)
-    [10. Validation After Cleaning](#10-validation-after-cleaning)
+    - [1. Initial Data Profiling](#1-initial-data-profiling)
+    - [2. Date Cleaning and Standardization](#2-date-cleaning-and-standardization)
+    - [3. Text Cleaning and Standardization](#3-text-cleaning-and-standardization)
+    - [4. Customer Type Standardization](#4-customer-type-standardization)
+    - [5. Vehicle Brand and Category Cleaning](#5-vehicle-brand-and-category-cleaning)
+    - [6. Numeric Cleaning](#6-numeric-cleaning)
+    - [7. Currency and Monetary Field Cleaning](#7-currency-and-monetary-field-cleaning)
+    - [8. Discount Cleaning](#8-discount-cleaning)
+    - [9. Missing and Invalid Values](#9-missing-and-invalid-values)
+    - [10. Validation After Cleaning](#10-validation-after-cleaning)
 
 - [Measures & Business Calculations](#measures--business-calculations)
 
@@ -115,6 +115,7 @@ It contains **276 records and 32 columns**, covering order information, customer
 
 The raw data contains intentional inconsistencies that make it unsuitable for direct aggregation without preprocessing. Examples include mixed date formats, inconsistent capitalization, spelling variations, currency symbols, numeric values stored as text, percentage values represented in multiple ways, placeholder/error values, and inconsistent categorical labels.
 
+[↑ Back to Top](#luxcars-logistics-co---sales--logistics-dashboard)
 ---
 
 # Data Cleaning & Preparation
@@ -377,6 +378,7 @@ After transformation, the data was checked to confirm that:
 
 The final Power BI model uses the cleaned `staging jcars` table as the analytical source for the dashboard visuals.
 
+[↑ Back to Top](#luxcars-logistics-co---sales--logistics-dashboard)
 ---
 
 # Measures & Business Calculations
@@ -460,6 +462,7 @@ COUNTROWS('staging jcars')
 
 > **Note:** The exact DAX implementation may vary depending on the final Power BI model and calculated columns used in the `.pbix` file. The definitions above document the analytical logic represented in the project report.
 
+[↑ Back to Top](#luxcars-logistics-co---sales--logistics-dashboard)
 ---
 
 # Visualization & Dashboard Development
@@ -564,6 +567,7 @@ These slicers allow users to move from an overall company view to a more specifi
 
 For example, a user can filter to a specific region and car make to investigate the revenue contribution of that combination.
 
+[↑ Back to Top](#luxcars-logistics-co---sales--logistics-dashboard)
 ---
 
 # Dashboard Design
@@ -656,6 +660,7 @@ The workflow combines **data quality management, transformation, analytical meas
 
 The final dashboard moves the analysis from raw transactional records to a concise management view that supports **performance monitoring, product decisions, regional targeting, and marketing planning**.
 
+[↑ Back to Top](#luxcars-logistics-co---sales--logistics-dashboard)
 ---
 
 # Author

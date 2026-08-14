@@ -47,7 +47,7 @@ LuxCars/
 │
 ├── LuxCars_dataset.csv          # Raw vehicle sales and logistics dataset
 ├── LuxCars.pbix                 # Power BI Desktop project
-├── dashboard.png                # Dashboard image preview
+├── LuxCars_dashboard.png        # Dashboard image preview
 ├── LuxCars_dashboard.pdf        # Exported dashboard
 ├── LuxCars_report.pdf           # Project report containing insights and recommendations
 └── README.md                    # Project documentation

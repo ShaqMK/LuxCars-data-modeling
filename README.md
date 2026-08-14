@@ -1,4 +1,4 @@
-# LuxCars Logistics Co. — Sales & Logistics Dashboard
+# LuxCars Logistics Co. - Sales & Logistics Dashboard
 
 ## Project Overview
 

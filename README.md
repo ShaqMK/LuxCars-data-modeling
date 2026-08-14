@@ -1,5 +1,39 @@
 # LuxCars Logistics Co. - Sales & Logistics Dashboard
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+
+- [Dashboard Preview](#dashboard-preview)
+
+- [Business Objectives](#business-objective)
+
+- [Project Structure](#project-structure)
+
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+    [1. Initial Data Profiling](#1-initial-data-profiling)
+    [2. Date Cleaning and Standardization](#2-date-cleaning-and-standardization)
+    [3. Text Cleaning and Standardization](#3-text-cleaning-and-standardization)
+    [4. Customer Type Standardization](#4-customer-type-standardization)
+    [5. Vehicle Brand and Category Cleaning](#5-vehicle-brand-and-category-cleaning)
+    [6. Numeric Cleaning](#6-numeric-cleaning)
+    [7. Currency and Monetary Field Cleaning](#7-currency-and-monetary-field-cleaning)
+    [8. Discount Cleaning](#9-missing-and-invalid-values)
+    [9. Missing and Invalid Values](#9-missing-and-invalid-values)
+    [10. Validation After Cleaning](#10-validation-after-cleaning)
+
+- [Measures & Business Calculations](#measures--business-calculations)
+
+- [Visualization & Dashboard Development](#visualization--dashboard-development)
+
+- [Dashboard Design](#dashboard-design)
+
+- [Key Business Insights](#key-business-insights)
+
+- [Recommendations](#recommendations)
+
+- [Conclusion](#conclusion)
+
 ## Project Overview
 
 The **LuxCars Logistics Co. Dashboard** is an interactive Power BI reporting project developed to transform a deliberately messy vehicle sales and logistics dataset into a decision-ready business intelligence dashboard.
